@@ -20,7 +20,6 @@ class AddressBookWorld {
   async pageHasTextContent(expectedContent) {
     const pageContent = await this.page.content()
     const actualContent = pageContent.match(expectedContent)[0]
-
     expect(actualContent).to.be.eq(expectedContent)
   }
 
@@ -49,6 +48,13 @@ class AddressBookWorld {
         throw `${btnName} button is not defined`
         break
     }
+  }
+
+  async checkContactStorageCount(expectedCount) {
+    const actualCount = await this.page.evaluate(
+      () => JSON.parse(window.localStorage.getItem('contacts')).length
+    )
+    expect(actualCount).to.be.eq(expectedCount)
   }
 }
 
