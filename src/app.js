@@ -2,11 +2,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Select form object from the DOM
     const addContactForm = document.querySelector('.new-contact-form')
   
-    // Register an event to listen for form submission
     addContactForm.addEventListener('submit', event => {
-      // Disable default behavior when submitting form
-      event.preventDefault()
-      const storage = window.localStorage
+        event.preventDefault()
+        const storage = window.localStorage
   
       // Get all inputs elements from the form
       const {
