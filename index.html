@@ -5,31 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Address book</title>
+  <link  href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"  rel="stylesheet">
+  <title>my little blue book</title>
 </head>
 
-<body>
-  <div>
-    <h1>Contacts</h1>
-    <p>You have no contacts in your address book</p>
-  </div>
-  <button class="add-contact">Add Contact</button>
-  <form action="#">
-    <label for="name">Name</label>
-    <input id="contact-name" name="name" type="text">
-    <label for="email">Email</label>
-    <input id="contact-email" name="email" type="email">
-    <label for="phone">Phone</label>
-    <input id="contact-phone" name="phone" type="text">
-    <label for="company">Company</label>
-    <input id="contact-company" name="company" type="text">
-    <label for="notes">Notes</label>
-    <textarea id="contact-notes" name="notes" type="text"></textarea>
-    <label for="twitter">Twitter</label>
-    <input id="contact-twitter" name="twitter" type="text">
-    <input class="save-contact" type="submit" value="Save contact">
-  </form>
+<body class="bg-blue-lighter">
   <script src="./dist/bundle.js"></script>
+  <div class="border m-12 rounded-lg bg-grey-lighter mx-auto shadow-lg max-w-xs overflow-hidden">
+    <div class="mt-2 text-center lowercase tracking-wide">
+      <h1>Contacts</h1>
+    </div>
+    <div class="mt-2 text-center lowercase tracking-wide">
+      <button class="add-contact lowercase tracking-wide">Add Contact</button>
+    </div>
+    <form class="new-contact-form lowercase tracking-wide" action="#">
+      <div class="mt-2 text-center">
+        <label for="name">Name</label>
+        <input id="contact-name" name="name" type="text">
+      </div>
+      <div class="mt-2 text-center lowercase tracking-wide">
+        <label for="email">Email</label>
+        <input id="contact-email" name="email" type="email">
+      </div>
+      <div class="mt-2 text-center lowercase tracking-wide">
+        <label for="phone">Phone</label>
+        <input id="contact-phone" name="phone" type="text">
+      </div>
+      <div class="mt-2 text-center lowercase tracking-wide">
+        <label for="company">Company</label>
+        <input id="contact-company" name="company" type="text">
+      </div>
+      <div class="mt-2 text-center lowercase tracking-wide">
+        <label for="notes">Notes</label>
+        <textarea id="contact-notes" name="notes" type="text"></textarea>
+      </div>
+      <div class="mt-2 text-center lowercase tracking-wide">
+        <label for="twitter">Twitter</label>
+        <input id="contact-twitter" name="twitter" type="text">
+      </div>
+      <div class="bg-grey-lighter mt-2 text-center lowercase tracking-wide">
+        <button class="save-contact lowercase tracking-wide" type="submit" value="save contact">Save contact</button>
+      </form>
+    </div>
+  </div>
 </body>
+  <div class="mt-8 text-center border m-12 rounded-lg 
+  bg-grey-lighter mx-auto shadow-lg max-w-xs overflow-hidden mt-4 contact-list text-sm tracking-wide margin">
+</div>
+
+
 
 </html>
