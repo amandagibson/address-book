@@ -16,7 +16,7 @@ const renderContacts = () => {
     // create a li element that will contain a card with
     // all the information of the contact
     contacts.forEach(contact => {
-      let li = document.createElement('li')
+      let li = document.createElement('li')  
       li.innerHTML = `
       <div class="card">
       </div>
