@@ -21,10 +21,11 @@ const renderContacts = () => {
       <div class="card">
       </div>
       <div class="content">
+      <br>
       <h2>${ contact.name }</h2>
       <h3>${ contact.company }</h3>
       <p>${ contact.notes }</p> 
-      ${ contact.email } | 
+      ${ contact.email } <br>
       <a href="https://www.twitter.com/${ contact.twitter}">@${contact.twitter}</a>
       </div>
       </div>
