@@ -17,20 +17,20 @@ const renderContacts = () => {
     // all the information of the contact
     contacts.forEach(contact => {
       let li = document.createElement('li')
+      li.setAttribute("class", "list-reset")  
       li.innerHTML = `
-      <div class="card">
-      <div class="image">
-      <img src="https://ca-address-book.herokuapp.com/images/pine.jpg" />
+      <div class="card mb-4" >
       </div>
-      <div class="content">
-      <h1>${ contact.name }</h1>
-      <h2>${ contact.company }</h2>
+      <div class="content list-reset">
+      <br>
+      <h3>${ contact.name }</h3>
+      <h5>${ contact.company }</h5>
       <p>${ contact.notes }</p> 
-      ${ contact.email } | 
+      ${ contact.email } <br> 
       <a href="https://www.twitter.com/${ contact.twitter}">@${contact.twitter}</a>
       </div>
-      </div>
-      `
+      </div><br>
+           `
       // Add the contact's li to the unordered list we created earlier
       ul.appendChild(li)
     })
