@@ -11,7 +11,7 @@ Company
 Notes
 Twitter
 
-WEBSITE IS DEPLOYED
+WEBSITE IS DEPLOYED: https://blissful-babbage-41fc62.netlify.com/
 
 In order to make it function as expected without navigating to the deployed URL:
  - Download files onto local pc
