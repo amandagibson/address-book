@@ -1,26 +1,29 @@
 
-THE ADDRESS BOOK: my little blue book
+# My little Blue Book
+## Online address book.
 
 The purpose of the site is to show a list of our contacts. 
 It has the funtionality to add new contacts and to view the following details about each entry:
 
-Name
-Phone 
-Email
-Company 
-Notes
-Twitter
+Name,
+Phone ,
+Email,
+Company,
+Notes,
+Twitter.
 
 WEBSITE IS DEPLOYED: https://blissful-babbage-41fc62.netlify.com/
-
+****
 In order to make it function as expected without navigating to the deployed URL:
  - Download files onto local pc
  - Open terminal and navigate to folder
- - Run the commands individually afetr each other:
-     "yarn run build"
+ - Run the commands individually after each other:<br>
+     "yarn run build"<br>
      "yarn run serve"
- - Run the index.html file via a browser to access the page 
+ - visit http://localhost:3000 in your browser.
 
- 
- Address book purpose: "Because a friend in need, is a friend indeed!"
+*****
+Built by: Amanda Gibson: https://github.com/amandagibson
+& Nici Putter: https://github.com/NiciP
+
 
