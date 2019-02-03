@@ -23,7 +23,8 @@ In order to make it function as expected without navigating to the deployed URL:
  - visit http://localhost:3000 in your browser.
 
 *****
+Built with JavaScript.<br>
 Built by: Amanda Gibson: https://github.com/amandagibson
-& Nici Putter: https://github.com/NiciP
+& Nici Putter: https://github.com/NiciP 
 
 
