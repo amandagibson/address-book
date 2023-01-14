@@ -14,7 +14,7 @@
     "puppeteer": "^1.13.0",
     "superstatic": "^6.0.4",
     "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "build": "webpack --progress --p --mode=production",
